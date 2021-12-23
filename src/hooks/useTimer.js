@@ -9,7 +9,6 @@ export default function useTimer() {
     setIntervalMaster(
       setInterval(() => {
         setTime((prev) => prev - 1);
-        console.log(time);
       }, 1000)
     );
   };
