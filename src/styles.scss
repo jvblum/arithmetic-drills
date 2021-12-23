@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Problem {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  header{
+    display: grid;
+    grid-template-areas: "left center right";
+    justify-content: center;
+    grid-gap: 24px;
+    height: fit-content;
+    font-size: 48px;
+
+    span {
+      border: black solid 1px;
+      height: 72px;
+      width: 72px;
+      // border-radius: 100%;
+      // align-content: center;
+    }
+    .left {
+      grid-area: left;
+    }
+
+    .center {
+      grid-area: center;
+    }
+
+    .right {
+      grid-area: right;
+    }
+  }
+}
+
+.Input {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 48px;
+  height: 48px;
+}
